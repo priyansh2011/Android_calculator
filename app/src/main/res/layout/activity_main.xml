@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="2.5dp"
+    android:layout_marginLeft="2.5dp"
+    android:layout_marginEnd="2.5dp"
+    android:layout_marginRight="2.5dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/calculator" />
+
+    <EditText
+        android:id="@+id/edNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="@string/enter_number_1"
+        android:inputType="number"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="@string/enter_number_2_not_for_singlevalue_functions"
+        android:inputType="number"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvanswer"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="37.5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2.5dp"
+        android:text="@string/plus"
+        android:textStyle="bold"
+        app:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/subtract"
+        android:layout_width="match_parent"
+        android:layout_height="37.5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2.5dp"
+        android:text="@string/subtract"
+        android:textStyle="bold"
+        app:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="match_parent"
+        android:layout_height="37.5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2.5dp"
+        android:text="@string/multiply"
+        android:textStyle="bold"
+        app:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="match_parent"
+        android:layout_height="37.5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2.5dp"
+        android:text="@string/divide"
+        android:textStyle="bold"
+        app:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/sin"
+        android:layout_width="match_parent"
+        android:layout_height="37.5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2.5dp"
+        android:text="@string/sin_x"
+        android:textStyle="bold"
+        app:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/cos"
+        android:layout_width="match_parent"
+        android:layout_height="37.5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2.5dp"
+        android:text="@string/cos_x"
+        android:textStyle="bold"
+        app:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/tan"
+        android:layout_width="match_parent"
+        android:layout_height="37.5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2.5dp"
+        android:text="@string/tan_x"
+        android:textStyle="bold"
+        app:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/exponent"
+        android:layout_width="match_parent"
+        android:layout_height="37.5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2.5dp"
+        android:text="@string/xy"
+        android:textStyle="bold"
+        app:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="37.5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2.5dp"
+        android:text="@string/log_x"
+        android:textStyle="bold"
+        app:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/Clear"
+        android:layout_width="match_parent"
+        android:layout_height="37.5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="2.5dp"
+        android:text="@string/clear"
+        android:textStyle="bold"
+        app:backgroundTint="#673AB7" />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="plus">+</string>
+    <string name="subtract">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="sin_x">sin(x)</string>
+    <string name="cos_x">cos(x)</string>
+    <string name="tan_x">tan(x)</string>
+    <string name="xy">x^y</string>
+    <string name="log_x">log(x)</string>
+    <string name="clear">Clear</string>
+    <string name="enter_number_1">Enter number 1</string>
+    <string name="enter_number_2_not_for_singlevalue_functions">Enter number-2 not for singleValue functions</string>
+</resources>
